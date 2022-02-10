@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--favcon do site-->
+    <link rel="shortcut icon" href="imagens/potatofavcon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+
+        h1#principal{
+            text-align: center;
+        }
+
+        h2{
+            font-family: 'Festive', cursive;
+        }
+
+        p{
+            text-align: justify;
+            text-indent: 20px;
+        }
+
+        .Nivel1{
+            background-color: blue;
+        }
+
+        .Nivel2{
+            background-color: green;
+        }
+
+        .Nivel3{
+            background-color: yellow;
+        }
+
+        .Nivel4{
+            background-color: red;
+        }
+
+        .destaque{
+            text-shadow: 4px 4px rgba(0, 0, 0, 0.486);
+        }
+    </style>
+
+    <title>Testes</title>
+</head>
+
+<body>
+    <h1 id="principal" class="destaque">Primeira pagina do site</h1>
+     
+    <h2>Paragrafos</h2>
+    <h3>paragrafos entre &lt;p&gt; e &lt;/p&gt;</h3>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla necessitatibus veritatis, unde autem numquam iusto inventore eaque aliquam ipsum qui officiis dolorum odio obcaecati laborum non sed explicabo rem voluptate! Lorem ipsum dolor sit amet consectetur adipisicing elit. Est dignissimos neque ipsam excepturi quam temporibus accusantium, recusandae eaque expedita blanditiis assumenda eos magni eveniet corrupti ea libero debitis dolores nemo?</p>
+
+    <h2>Adicionando emojis</h2>
+    <p>&#x1F596</p> <!--Emojipedia.org-->
+
+    <h2>Imagens</h2>
+    <img src="imagens/alanlogo.jpg" alt="Alanzoka logo" width="300"> 
+
+    <h1 class="Nivel1 destaque">Hierarquia de titulos nivel 1</h1>
+    <h2 class="Nivel2">nivel 2</h2>
+    <h3 class="Nivel3">nivel 3</h3>
+    <h3 class="Nivel3">nivel 3</h3>
+    <h3 class="Nivel3">nivel 3</h3>
+    <h2 class="Nivel2">nivel 2</h2>
+    <h3 class="Nivel3">nivel 3</h3>
+    <h4 class="Nivel4">nivel 4</h4>
+    <h4 class="Nivel4">nivel 4</h4>
+    <h4 class="Nivel4">nivel 4</h4>
+
+    <h2>termo em destaque com tag STRONG</h2>
+    <p> termo em destaque usando a tag <strong>STRONG</strong></p>
+
+    <h2>italalico ou enfase</h2>
+    <p> termo em <em>italico</em></p>
+
+    <h2>texto marcado</h2>
+    <p><mark style="background-color: aquamarine;">texto marcado aqui</mark></p>
+
+    <h2>texto excluido</h2>
+    <p><del>texto deletado aqui</del></p>
+
+    <h2>texto inserido</h2>
+    <p><ins>texto inserido aqui</ins></p>
+
+    <h2>texto SOBREscrito e SUBscrito</h2>
+    <p>sobrescrito aqui x<sup>20</sup></p>
+    <p>subscrito aqui h<sub>2</sub>0</p>
+
+    <h2>outras formatacoes</h2>
+    <p>codigo de programacao: <code>document.GetElementById('teste')</code></p>
+
+    <h2>citacoes</h2>
+    <p>citacoes <q>aqui</q></p>
+    <p>blockquote aqui: <blockquote cite="twitch.com/alanzoka">lives do alanzoka aqui</blockquote></p>
+
+    <h2>Siglas e abreviacoes</h2>
+    <p><abbr title="HyperText Markup Language">HTML</abbr></p>
+
+    <h2>Texto invertido</h2>
+    <p>texto invertido na <bdo dir="rtl">direita</bdo></p>
+
+    <h2>Listas</h2>
+
+    <h3>Listas ordenadas</h3>
+    <ol>
+        <li>um</li>
+        <li>dois</li>
+        <li>tres</li>
+    </ol>
+
+    <ol type="A">
+        <li>a</li>
+        <li>b</li>
+        <li>c</li>
+    </ol>
+
+    <ol start="3">
+        <li>tres</li>
+        <li>quatro</li>
+        <li>cinco</li>
+    </ol>
+
+    <h3>Listas nao ordenadas</h3>
+    <ul type="square"> <!--disc / circle / square-->
+        <li>um</li>
+        <li>dois</li>
+        <li>tres</li>
+    </ul>
+
+    <h2>Listas mistas e de definicao</h2>
+    <ol>
+        <li>um</li>
+        <ol>
+            <li>um-1</li>
+            <li>um-2</li>
+        </ol>
+        <li>dois</li>
+        <ol>
+            <li>dois-1</li>
+            <li>dois-2</li>
+        </ol>
+    </ol>
+
+    <h2>Links e ancoras</h2>
+    <a href="https://twitch.tv/alanzoka" target="_blank" rel="external">lives do alanzoka</a>
+
+    <h2>links internos</h2>
+    <p>segunda pagina do site <a href="pag002.html" rel="next">aqui</a></p>
+
+    <!-- ../ para voltar a pasta -->
+
+    <h2>links para download</h2>
+    <a href="downloads/and.png" download="and.png" type="image/png">baixar foto do and</a>
+
+    <h2>reproduzindo audios</h2>
+    <audio preload="metadata" controls>
+        <source src="" type="audio/mpeg">
+        <source src="" type="audio/ogg">
+        <source src="" type="audio/wav">
+    </audio>
+    <!--mp3 | wav | ogg -->
+
+    <h2>Reproduzindo videos</h2>
+    <h3>videos hospedados localmente</h3>
+    <video src="videos/SINTA A PRESSÃO NENÉM!.mp4" controls></video>
+
+    <h3>videos externos</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h2>Google fontes</h2>
+    <p></p>
+
+    
+</body>
+</html>
